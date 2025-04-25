@@ -1,26 +1,24 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/cc18e250-5176-47dc-8de6-96444bf1843c
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+# Credit Card Fraud Detection 
 
-**Use Lovable**
+A real-time fraud detection system with interactive visualizations and model explanations for credit card transactions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cc18e250-5176-47dc-8de6-96444bf1843c) and start prompting.
+## Objective
 
-Changes made via Lovable will be committed automatically to this repo.
+This project implements a sophisticated fraud detection dashboard that helps financial institutions monitor and analyze credit card transactions in real-time. It provides visual insights into fraud patterns, model performance metrics, and detailed transaction analysis to help identify and prevent fraudulent activities.
+## Installation
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js 18.0 or higher
+- npm or yarn package manager
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Setup Instructions
 
-Follow these steps:
+
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
@@ -36,19 +34,6 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
 
@@ -59,15 +44,34 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+  
+## Features
 
-## How can I deploy this project?
+- 📊 Real-time transaction monitoring
+- 🔍 Advanced fraud detection analytics
+- 📈 Interactive data visualizations
+- 🎯 Model performance metrics
+- 💡 Transaction explanation system
+- 📱 Responsive design for all devices
+- 🔄 Mock data generation for testing
+- 📤 Dataset upload functionality
+## Code Quality
 
-Simply open [Lovable](https://lovable.dev/projects/cc18e250-5176-47dc-8de6-96444bf1843c) and click on Share -> Publish.
+- Built with TypeScript for type safety
+- Follows React best practices and hooks patterns
+- Implements responsive design using Tailwind CSS
+- Uses shadcn/ui components for consistent UI
+- Includes proper error handling and loading states
+- Maintains clean code structure with separation of concerns
+  
+## Future Enhancements
 
-## Can I connect a custom domain to my Lovable project?
+- Integration with real-time transaction data
+- Advanced anomaly detection algorithms
+- User authentication and role-based access
+- Custom alert configurations
+- Export functionality for reports
+- API integration with backend services
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
